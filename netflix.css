@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: linear-gradient(rgb(15, 14, 14));
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0 , 0, 0, 0.5)), url(Netflix/d.webp);
+    /* background-size: cover;
+    background-position: center; */
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 1rem 5rem;
+}
+
+.in {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: rgb(231, 224, 224);
+    font-size: 1rem;
+    margin: 1rem 5rem;
+}
+
+.start {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(231, 224, 224);
+    font-size: 1rem;
+   
+}
+
+h1 {
+    font-size: 5rem;
+    text-wrap: wrap;
+}
+
+.ready {
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.get {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input {
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: rgb(212, 206, 206);
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.main {
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 300;
+}
+
+.on {
+    display: flex;
+}
+
+.enjoy {
+    position: relative;
+    width: 260px;
+    height: 350px;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #241126;
+}
+
+.enjoy P {
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+.enjoy b {
+    font-size: 1.8rem;
+    margin: 1rem;
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 100;
+}
+
+.movies {
+    display: flex;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+.image {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.faq {
+    font-size: 2rem;
+    display: flex;
+    text-align: left;
+}
+
+ .faqs {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+ 
+  details {
+    background: #2d2d2d;
+    color: #fff;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+ 
+  summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px 24px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  summary::-webkit-details-marker {
+    display: none;
+  }
+ 
+  .plus {
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: transform 0.25s ease;
+  }
+ 
+  details[open] .plus {
+    transform: rotate(45deg);
+  }
+ 
+  details[open] summary {
+    background: #3d3d3d;
+  }
+ 
+  details p {
+    padding: 0 24px 20px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #d2d2d2;
+    margin: 0;
+  }
+
+  .foot {
+    height: 20vh;
+  }
+
+  .foot p {
+    font-size: 1.1rem;
+    font-weight: 100;
+  }
+
+  .us a{
+    color: rgb(228, 226, 226);
+    font-size: 1.1rem;
+  }
+
+  .us {
+    text-align: left;
+    height: 10vh;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+  }
+
+  .footer a {
+     color: rgb(216, 215, 215);
+  }
+
+  .pri ul{
+    list-style-type: none;
+    line-height: 40px;
+    justify-content: left;
+    text-align: left;
+    font-weight: 100;
+  }
+  .help ul{
+    list-style-type: none;
+    line-height: 40px;
+    justify-content: left;
+    text-align: left;
+    font-weight: 100;
+  }
+  .ways ul{
+    list-style-type: none;
+    line-height: 40px;
+    justify-content: left;
+    text-align: left;
+    font-weight: 100;
+  }
+  .terms ul{
+    list-style-type: none;
+    line-height: 40px;
+    justify-content: left;
+    text-align: left;
+    font-weight: 100;
+  }
+
+  .language {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    display: flex;
+  }
+
+  .lan {
+    height: 30vh;
+  }
+
+  footer {
+    font-size: 2rem;
+  }
+
+ /* Tablets */
+@media (max-width: 1000px) {
+    .main {
+        width: 85%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .get {
+        display: grid;
+    }
+
+    .get button {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .foot {
+        height: 35vh;
+    }
+
+    .us {
+        height: 10vh;
+    }
+
+    .on {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .enjoy {
+        width: 100%;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        height: auto;
+        height: 55vh;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Phones */
+@media (max-width: 599px) {
+
+    .logo {
+        margin: 1rem;
+    }
+
+    .logo img {
+        width: 120px;
+        height: auto;
+    }
+
+    .in {
+        width: 80px;
+        height: 35px;
+        margin: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .main {
+        width: 90%;
+    }
+
+    .ready {
+        font-size: 1rem;
+    }
+
+    .get {
+        flex-direction: column;
+    }
+
+    input {
+        max-width: 90%;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    
+    .on {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .enjoy {
+        width: 100%;
+    }
+
+    .movies {
+        overflow-x: auto;
+    }
+
+    .image {
+        width: 150px;
+        flex-shrink: 0;
+    }
+
+    .faq {
+        font-size: 1.5rem;
+    }
+
+    summary {
+        font-size: 1rem;
+    }
+
+    details p {
+        font-size: 1rem;
+    }
+
+    .foot {
+        height: 40vh;
+    }
+
+    .footer {
+        display: contents;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+    
+} 
